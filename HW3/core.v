@@ -1582,7 +1582,7 @@ temp_nms_D = G_D;
 	endcase
 end
 
-///////////////   CONV ///////////////////
+
 assign temp_16_plus = median_reg[0] + median_reg[2] + median_reg[6] + median_reg[8];
 assign temp_8_plus  = median_reg[1] + median_reg[3] + median_reg[5] + median_reg[7];
 assign temp_4_plus  = median_reg[4];
